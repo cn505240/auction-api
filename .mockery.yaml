@@ -1,0 +1,9 @@
+with-expecter: true
+filename: "{{.InterfaceName}}.go"
+mockname: "{{.InterfaceName}}"
+packages:
+  auction-api:
+    config:
+      all: true
+      recursive: true
+      disable-version-string: true
