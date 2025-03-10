@@ -8,3 +8,9 @@ CREATE TABLE IF NOT EXISTS users (
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Insert seed users
+INSERT INTO users (first_name, last_name, email) VALUES
+    ('John', 'Doe', 'john.doe@example.com'),
+    ('Jane', 'Smith', 'jane.smith@example.com'),
+    ('Michael', 'Johnson', 'michael.johnson@example.com'),
+    ('Sarah', 'Williams', 'sarah.williams@example.com');
